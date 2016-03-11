@@ -3,10 +3,15 @@
 //  DGTools
 //
 //  Created by Gavin on 16/3/11.
-//  Copyright © 2016年 Gavin. All rights reserved.
+//  Copyright © 2016年 com.tryingx All rights reserved.
 //
 
+#define DEF_Test 1
+
 #import "AppDelegate.h"
+
+#import "MainController.h"
+#import "TestController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +22,22 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+#if DEF_Test
+    TestController *testController = [[TestController alloc] init];
+    UINavigationController *testNavC = [[UINavigationController alloc] initWithRootViewController:testController];
+    self.window.rootViewController = testNavC;
+#else
+    MainController *mainController = [[MainController alloc] init];
+    UINavigationController *mainNavC = [[UINavigationController alloc] initWithRootViewController:mainController];
+    self.window.rootViewController = mainNavC;
+#endif
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

@@ -3,7 +3,7 @@
 //  DGToolsTests
 //
 //  Created by Gavin on 16/3/11.
-//  Copyright © 2016年 Gavin. All rights reserved.
+//  Copyright © 2016年 com.tryingx All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
