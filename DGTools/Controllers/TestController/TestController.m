@@ -39,9 +39,6 @@
 //    topAlertView.param = @{@"key":@"value",@"name":@"topAlertView"};
 //    topAlertView.delegate = self;
 //    [topAlertView show];
-    NSLog(@"-----------------");
-    sleep(2);
-    NSLog(@"ssssssss");
     
 }
 

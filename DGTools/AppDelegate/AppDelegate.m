@@ -10,7 +10,7 @@
 
 #import "AppDelegate.h"
 
-#import "MainController.h"
+#import "FirstController.h"
 #import "TestController.h"
 
 @interface AppDelegate ()
@@ -26,15 +26,19 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     
-#if DEF_Test
+    FirstController *firstController = [[FirstController alloc] init];
+    firstController.title = @"First";
+    UINavigationController *mainNavC = [[UINavigationController alloc] initWithRootViewController:firstController];
+    
     TestController *testController = [[TestController alloc] init];
+    testController.title = @"Test";
     UINavigationController *testNavC = [[UINavigationController alloc] initWithRootViewController:testController];
-    self.window.rootViewController = testNavC;
-#else
-    MainController *mainController = [[MainController alloc] init];
-    UINavigationController *mainNavC = [[UINavigationController alloc] initWithRootViewController:mainController];
-    self.window.rootViewController = mainNavC;
-#endif
+    
+    self.mainTabBarController = [[MainTabBarController alloc] init];
+    self.mainTabBarController.delegate = self;
+    self.mainTabBarController.viewControllers = @[mainNavC,testNavC];
+    
+    self.window.rootViewController = self.mainTabBarController;
     
     [self.window makeKeyAndVisible];
     

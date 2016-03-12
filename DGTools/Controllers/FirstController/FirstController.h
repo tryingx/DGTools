@@ -1,13 +1,13 @@
 //
-//  MainController.h
+//  FirstController.h
 //  DGTools
 //
-//  Created by Gavin on 16/3/11.
+//  Created by Gavin on 16/3/12.
 //  Copyright © 2016年 com.tryingx. All rights reserved.
 //
 
 #import "BaseController.h"
 
-@interface MainController : BaseController
+@interface FirstController : BaseController
 
 @end

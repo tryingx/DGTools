@@ -11,18 +11,37 @@
 @implementation DocumentManager
 
 #pragma mark - Get Document Path
-+(NSString *)getDocumentPath
++ (NSString *)getDocumentPath
 {
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     NSString *documentsDirectory = [paths objectAtIndex:0];
+    
+    if(!documentsDirectory) {
+        NSLog(@"Documents 目录未找到");
+    }
+    
     return documentsDirectory;
 }
 
 #pragma mark 获取Document目录下filename文件路径
 + (NSString *)getPathForDocuments:(NSString *)filename
 {
-    return [[self getDocumentPath] stringByAppendingPathComponent:filename];
+    NSString * filePath = [[self getDocumentPath] stringByAppendingPathComponent:filename];
+    
+    if(!filePath) {
+        NSLog(@"FilePath 目录未找到");
+    }
+    return filePath;
 }
+
+#pragma mark 将文件以FileName写入文件到DocumentPath下
++ (BOOL)writeFileToDocumentsPathForFileName:(NSString *)fileName File:(id)file
+{
+    NSString *filePath = [self getPathForDocuments:fileName];
+    
+    return [file writeToFile:filePath atomically:YES];
+}
+
 #pragma mark - Get Cache Path
 + (NSString *)getCachePath
 {
@@ -36,6 +55,36 @@
 {
     NSString *tmpStr = [NSString stringWithFormat:@"/%@",filename];
     return [[self getCachePath] stringByAppendingPathComponent:tmpStr];
+}
+
+#pragma mark 将文件以FileName写入文件到CachePath下
++ (BOOL)writeFileToCachePathForFileName:(NSString *)fileName File:(id)file
+{
+    NSString *filePath = [self getPathForCache:fileName];
+    
+    return [file writeToFile:filePath atomically:YES];
+}
+
+#pragma mark - Get Temp Path
++ (NSString *)getTempPath
+{
+    NSString *tempPath = NSTemporaryDirectory();
+    return tempPath;
+}
+
+#pragma mark 获取Temp目录下filename文件路径
++ (NSString *)getPathForTemp:(NSString *)filename
+{
+    NSString *tmpStr = [NSString stringWithFormat:@"/%@",filename];
+    return [[self getTempPath] stringByAppendingPathComponent:tmpStr];
+}
+
+#pragma mark 将文件以FileName写入文件到TempPath下
++ (BOOL)writeFileToTempPathForFileName:(NSString *)fileName File:(id)file
+{
+    NSString *filePath = [self getPathForTemp:fileName];
+    
+    return [file writeToFile:filePath atomically:YES];
 }
 
 #pragma mark - 根据路径检查文件是否存在

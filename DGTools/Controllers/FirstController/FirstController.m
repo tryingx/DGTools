@@ -1,18 +1,18 @@
 //
-//  MainController.m
+//  FirstController.m
 //  DGTools
 //
-//  Created by Gavin on 16/3/11.
+//  Created by Gavin on 16/3/12.
 //  Copyright © 2016年 com.tryingx. All rights reserved.
 //
 
-#import "MainController.h"
+#import "FirstController.h"
 
-@interface MainController ()
+@interface FirstController ()
 
 @end
 
-@implementation MainController
+@implementation FirstController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
