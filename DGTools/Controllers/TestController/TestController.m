@@ -40,6 +40,7 @@
 //    topAlertView.delegate = self;
 //    [topAlertView show];
     
+    
 }
 
 //- (void)topAlertView:(TopAlertView *) alertView onClickWithParameter:(NSDictionary*)dic{

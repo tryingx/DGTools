@@ -48,6 +48,10 @@
 		8626E54F1C93EC3C0079F214 /* MainTabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8626E54D1C93EC3C0079F214 /* MainTabBarController.xib */; };
 		8626E55B1C93EF220079F214 /* FirstController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626E5591C93EF220079F214 /* FirstController.m */; };
 		8626E55C1C93EF220079F214 /* FirstController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8626E55A1C93EF220079F214 /* FirstController.xib */; };
+		8626E5601C940DCD0079F214 /* NSString+Trim.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626E55F1C940DCD0079F214 /* NSString+Trim.m */; };
+		8626E5671C9419740079F214 /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626E5661C9419740079F214 /* NSString+Hash.m */; };
+		8626E5711C941C280079F214 /* ImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626E5701C941C280079F214 /* ImageManager.m */; };
+		8626E5751C9431E10079F214 /* NSString+Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626E5741C9431E10079F214 /* NSString+Emoji.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -145,6 +149,14 @@
 		8626E5581C93EF220079F214 /* FirstController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstController.h; sourceTree = "<group>"; };
 		8626E5591C93EF220079F214 /* FirstController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstController.m; sourceTree = "<group>"; };
 		8626E55A1C93EF220079F214 /* FirstController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstController.xib; sourceTree = "<group>"; };
+		8626E55E1C940DCD0079F214 /* NSString+Trim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Trim.h"; sourceTree = "<group>"; };
+		8626E55F1C940DCD0079F214 /* NSString+Trim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Trim.m"; sourceTree = "<group>"; };
+		8626E5651C9419740079F214 /* NSString+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
+		8626E5661C9419740079F214 /* NSString+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
+		8626E56F1C941C280079F214 /* ImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageManager.h; sourceTree = "<group>"; };
+		8626E5701C941C280079F214 /* ImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageManager.m; sourceTree = "<group>"; };
+		8626E5731C9431E10079F214 /* NSString+Emoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Emoji.h"; sourceTree = "<group>"; };
+		8626E5741C9431E10079F214 /* NSString+Emoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Emoji.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -255,6 +267,9 @@
 		8626E4A61C93044E0079F214 /* NSString+ */ = {
 			isa = PBXGroup;
 			children = (
+				8626E5721C9431E10079F214 /* NSString+Emoji */,
+				8626E5641C9419740079F214 /* NSString+Hash */,
+				8626E55D1C940DCD0079F214 /* NSString+Trim */,
 				8626E4BA1C930EAC0079F214 /* NSString+Base64 */,
 				8626E4BE1C930EAC0079F214 /* NSString+MD5 */,
 			);
@@ -364,6 +379,7 @@
 		8626E4E01C9313290079F214 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				8626E56B1C941BFD0079F214 /* ImageManager */,
 				8626E5411C93BD5D0079F214 /* WidgetManager */,
 				8626E53D1C93BA820079F214 /* DocumentManager */,
 				8626E5351C93B7FB0079F214 /* StringManager */,
@@ -625,6 +641,42 @@
 			path = MainTabBarController;
 			sourceTree = "<group>";
 		};
+		8626E55D1C940DCD0079F214 /* NSString+Trim */ = {
+			isa = PBXGroup;
+			children = (
+				8626E55E1C940DCD0079F214 /* NSString+Trim.h */,
+				8626E55F1C940DCD0079F214 /* NSString+Trim.m */,
+			);
+			path = "NSString+Trim";
+			sourceTree = "<group>";
+		};
+		8626E5641C9419740079F214 /* NSString+Hash */ = {
+			isa = PBXGroup;
+			children = (
+				8626E5651C9419740079F214 /* NSString+Hash.h */,
+				8626E5661C9419740079F214 /* NSString+Hash.m */,
+			);
+			path = "NSString+Hash";
+			sourceTree = "<group>";
+		};
+		8626E56B1C941BFD0079F214 /* ImageManager */ = {
+			isa = PBXGroup;
+			children = (
+				8626E56F1C941C280079F214 /* ImageManager.h */,
+				8626E5701C941C280079F214 /* ImageManager.m */,
+			);
+			path = ImageManager;
+			sourceTree = "<group>";
+		};
+		8626E5721C9431E10079F214 /* NSString+Emoji */ = {
+			isa = PBXGroup;
+			children = (
+				8626E5731C9431E10079F214 /* NSString+Emoji.h */,
+				8626E5741C9431E10079F214 /* NSString+Emoji.m */,
+			);
+			path = "NSString+Emoji";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -770,13 +822,16 @@
 				8626E5011C9316440079F214 /* TopAlertView.m in Sources */,
 				8626E50F1C9319020079F214 /* UIColor+RGB.m in Sources */,
 				8626E4CA1C9310030079F214 /* UIColor+Random.m in Sources */,
+				8626E5751C9431E10079F214 /* NSString+Emoji.m in Sources */,
 				8626E4F21C9313940079F214 /* FMDatabaseAdditions.m in Sources */,
 				8626E5381C93B80A0079F214 /* StringManager.m in Sources */,
 				8626E5301C93B4CF0079F214 /* DateManager.m in Sources */,
 				8626E4C21C930EC20079F214 /* NSString+MD5.m in Sources */,
 				8626E4F31C9313940079F214 /* FMDatabasePool.m in Sources */,
+				8626E5711C941C280079F214 /* ImageManager.m in Sources */,
 				8626E4AB1C9304C10079F214 /* BaseController.m in Sources */,
 				8626E53C1C93B9000079F214 /* HanziToPinyin.m in Sources */,
+				8626E5671C9419740079F214 /* NSString+Hash.m in Sources */,
 				8626E5441C93BD710079F214 /* WidgetManager.m in Sources */,
 				8626E5001C9316440079F214 /* SIAlertView.m in Sources */,
 				8626E4F41C9313940079F214 /* FMDatabaseQueue.m in Sources */,
@@ -784,6 +839,7 @@
 				8626E4DF1C93122D0079F214 /* UIDevice+Identifier.m in Sources */,
 				8626E4BF1C930EAC0079F214 /* GTMBase64.m in Sources */,
 				8626E4F51C9313940079F214 /* FMResultSet.m in Sources */,
+				8626E5601C940DCD0079F214 /* NSString+Trim.m in Sources */,
 				8626E4F81C9313FC0079F214 /* FMDBManager.m in Sources */,
 				8626E4DA1C93117F0079F214 /* UIView+Shape.m in Sources */,
 				8626E51E1C93A6DD0079F214 /* DeviceInfoManager.m in Sources */,
