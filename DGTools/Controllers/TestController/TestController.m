@@ -26,21 +26,26 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    self.title = @"TestController";
     self.view.backgroundColor = [UIColor yellowColor];
+    
+    UIButton *testButton = [UIButton buttonWithType:UIButtonTypeContactAdd];
+    [testButton addTarget:self action:@selector(Test) forControlEvents:UIControlEventTouchUpInside];
+
+    UIBarButtonItem* rightBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:testButton];
+    self.navigationItem.rightBarButtonItem = rightBarButtonItem;
+    
     [self goTestMethod];
 }
 
+- (void)Test{
+    NSLog(@"222222222");
+    NSString *ceshi = @"gavin@tryingx.com";
+    NSLog(@"++++++++++%d",[ceshi isEmailAddress]);
+}
 - (void)goTestMethod{
 //    SIAlertView *alertV = [[SIAlertView alloc] initWithTitle:@"这是一条测试消息" andMessage:@"zhe shi yi tiao ce shi xiao xi"];
 //    [alertV show];
-    
-//    TopAlertView *topAlertView = [[TopAlertView alloc] initWithFrame:CGRectMake(0, -50, self.view.bounds.size.width, 50)];
-//    topAlertView.param = @{@"key":@"value",@"name":@"topAlertView"};
-//    topAlertView.delegate = self;
-//    [topAlertView show];
-    
-    
+
 }
 
 //- (void)topAlertView:(TopAlertView *) alertView onClickWithParameter:(NSDictionary*)dic{

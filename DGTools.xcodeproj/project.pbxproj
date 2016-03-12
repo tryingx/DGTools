@@ -43,7 +43,7 @@
 		8626E55C1C93EF220079F214 /* FirstController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8626E55A1C93EF220079F214 /* FirstController.xib */; };
 		8626E5711C941C280079F214 /* ImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626E5701C941C280079F214 /* ImageManager.m */; };
 		8626E57A1C9435140079F214 /* CoderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626E5791C9435140079F214 /* CoderModel.m */; };
-		8626E59E1C94615A0079F214 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626E5801C94615A0079F214 /* GTMBase64.m */; };
+		8626E59E1C94615A0079F214 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626E5801C94615A0079F214 /* GTMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		8626E59F1C94615A0079F214 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626E5821C94615A0079F214 /* NSString+Base64.m */; };
 		8626E5A01C94615A0079F214 /* NSString+Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626E5851C94615A0079F214 /* NSString+Emoji.m */; };
 		8626E5A11C94615A0079F214 /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626E5881C94615A0079F214 /* NSString+Hash.m */; };

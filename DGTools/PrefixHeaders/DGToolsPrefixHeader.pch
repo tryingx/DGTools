@@ -28,6 +28,7 @@
 #import "UIColor+Random.h"
 
 //----------NSString--------
+#import "NSString+Regular.h"
 #import "NSString+MD5.h"
 #import "NSString+Base64.h"
 
