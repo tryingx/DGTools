@@ -19,7 +19,8 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        self.backgroundColor=[UIColor colorWithRed:1 green:1 blue:1 alpha:0.5];
+//        self.backgroundColor=[UIColor colorWithRed:1 green:1 blue:1 alpha:0.5];
+        self.backgroundColor = [UIColor redColor];
         UIWindow *window=((AppDelegate *)[UIApplication sharedApplication].delegate).window;
         [window addSubview:self];
         textLabel=[[UILabel alloc] initWithFrame:CGRectMake(10, self.frame.size.height-30, self.frame.size.width-20, 30)];

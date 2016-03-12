@@ -3,12 +3,21 @@
 //  DGTools
 //
 //  Created by Gavin on 16/3/11.
-//  Copyright © 2016年 com.tryingx All rights reserved.
+//  Copyright © 2016年 com.tryingx. All rights reserved.
 //
+
+//  Test Import
+//---------------------
+
+#import "SIAlertView.h"
+#import "TopAlertView.h"
+
+//---------------------
+
 
 #import "TestController.h"
 
-@interface TestController ()
+@interface TestController ()<TopAlertViewDelegate>
 
 @end
 
@@ -19,6 +28,20 @@
     // Do any additional setup after loading the view from its nib.
     self.title = @"TestController";
     self.view.backgroundColor = [UIColor cyanColor];
+    [self goTestMethod];
+}
+
+- (void)goTestMethod{
+//    SIAlertView *alertV = [[SIAlertView alloc] initWithTitle:@"这是一条测试消息" andMessage:@"zhe shi yi tiao ce shi xiao xi"];
+//    [alertV show];
+    
+    TopAlertView *topAlertView = [[TopAlertView alloc] initWithFrame:CGRectMake(0, -50, self.view.bounds.size.width, 50)];
+    topAlertView.param = @{@"key":@"value",@"name":@"topAlertView"};
+    topAlertView.delegate = self;
+    [topAlertView show];
+}
+- (void)topAlertView:(TopAlertView *) alertView onClickWithParameter:(NSDictionary*)dic{
+    NSLog(@"%@",dic);
 }
 
 - (void)didReceiveMemoryWarning {

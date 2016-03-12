@@ -36,6 +36,7 @@
 		8626E50F1C9319020079F214 /* UIColor+RGB.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626E50E1C9319020079F214 /* UIColor+RGB.m */; };
 		8626E5111C9319FC0079F214 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8626E5101C9319FC0079F214 /* libsqlite3.tbd */; };
 		8626E5131C931A600079F214 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8626E5121C931A600079F214 /* libsqlite3.0.tbd */; };
+		8626E5171C93A44C0079F214 /* KeychainManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626E5161C93A44C0079F214 /* KeychainManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,6 +112,8 @@
 		8626E50E1C9319020079F214 /* UIColor+RGB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RGB.m"; sourceTree = "<group>"; };
 		8626E5101C9319FC0079F214 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		8626E5121C931A600079F214 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		8626E5151C93A44C0079F214 /* KeychainManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainManager.h; sourceTree = "<group>"; };
+		8626E5161C93A44C0079F214 /* KeychainManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -337,6 +340,7 @@
 		8626E4E01C9313290079F214 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				8626E5141C93A4240079F214 /* KeychainManager */,
 				8626E4E11C9313940079F214 /* FMDBManager */,
 			);
 			path = Managers;
@@ -423,6 +427,15 @@
 				8626E50E1C9319020079F214 /* UIColor+RGB.m */,
 			);
 			path = "UIColor+RGB";
+			sourceTree = "<group>";
+		};
+		8626E5141C93A4240079F214 /* KeychainManager */ = {
+			isa = PBXGroup;
+			children = (
+				8626E5151C93A44C0079F214 /* KeychainManager.h */,
+				8626E5161C93A44C0079F214 /* KeychainManager.m */,
+			);
+			path = KeychainManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -558,6 +571,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8626E4C51C930ED60079F214 /* NSString+Base64.m in Sources */,
+				8626E5171C93A44C0079F214 /* KeychainManager.m in Sources */,
 				8626E50A1C9316B50079F214 /* TestController.m in Sources */,
 				8626E47D1C9302840079F214 /* DGTools.xcdatamodeld in Sources */,
 				8626E4F11C9313940079F214 /* FMDatabase.m in Sources */,

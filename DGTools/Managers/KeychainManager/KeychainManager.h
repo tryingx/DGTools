@@ -1,15 +1,13 @@
 //
-//  NSString+Base64.h
+//  KeychainManager.h
 //  DGTools
 //
-//  Created by Gavin on 16/3/11.
+//  Created by Gavin on 16/3/12.
 //  Copyright © 2016年 com.tryingx. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-@interface NSString (Base64)
-
-- (NSString *) stringFromBase64;
+@interface KeychainManager : NSObject
 
 @end
