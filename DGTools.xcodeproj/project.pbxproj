@@ -52,6 +52,7 @@
 		8626E5671C9419740079F214 /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626E5661C9419740079F214 /* NSString+Hash.m */; };
 		8626E5711C941C280079F214 /* ImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626E5701C941C280079F214 /* ImageManager.m */; };
 		8626E5751C9431E10079F214 /* NSString+Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626E5741C9431E10079F214 /* NSString+Emoji.m */; };
+		8626E57A1C9435140079F214 /* CoderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626E5791C9435140079F214 /* CoderModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -157,6 +158,8 @@
 		8626E5701C941C280079F214 /* ImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageManager.m; sourceTree = "<group>"; };
 		8626E5731C9431E10079F214 /* NSString+Emoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Emoji.h"; sourceTree = "<group>"; };
 		8626E5741C9431E10079F214 /* NSString+Emoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Emoji.m"; sourceTree = "<group>"; };
+		8626E5781C9435140079F214 /* CoderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoderModel.h; sourceTree = "<group>"; };
+		8626E5791C9435140079F214 /* CoderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoderModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,6 +216,7 @@
 			children = (
 				8626E5021C9316560079F214 /* AppDelegate */,
 				8626E4F91C9316440079F214 /* Test */,
+				8626E5761C94348F0079F214 /* Models */,
 				8626E4A71C9304980079F214 /* Controllers */,
 				8626E4A51C93044E0079F214 /* CategoryTools */,
 				8626E4E01C9313290079F214 /* Managers */,
@@ -677,6 +681,23 @@
 			path = "NSString+Emoji";
 			sourceTree = "<group>";
 		};
+		8626E5761C94348F0079F214 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8626E5771C9435040079F214 /* CoderModel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8626E5771C9435040079F214 /* CoderModel */ = {
+			isa = PBXGroup;
+			children = (
+				8626E5781C9435140079F214 /* CoderModel.h */,
+				8626E5791C9435140079F214 /* CoderModel.m */,
+			);
+			path = CoderModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -831,6 +852,7 @@
 				8626E5711C941C280079F214 /* ImageManager.m in Sources */,
 				8626E4AB1C9304C10079F214 /* BaseController.m in Sources */,
 				8626E53C1C93B9000079F214 /* HanziToPinyin.m in Sources */,
+				8626E57A1C9435140079F214 /* CoderModel.m in Sources */,
 				8626E5671C9419740079F214 /* NSString+Hash.m in Sources */,
 				8626E5441C93BD710079F214 /* WidgetManager.m in Sources */,
 				8626E5001C9316440079F214 /* SIAlertView.m in Sources */,
