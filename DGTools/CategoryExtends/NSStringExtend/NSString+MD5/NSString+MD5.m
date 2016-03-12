@@ -11,7 +11,7 @@
 
 @implementation NSString (MD5)
 
-- (NSString *) stringFromMD5{
+- (NSString *)MD5{
     
     if(self == nil || [self length] == 0)
         return nil;
