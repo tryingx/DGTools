@@ -37,6 +37,14 @@
 		8626E5111C9319FC0079F214 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8626E5101C9319FC0079F214 /* libsqlite3.tbd */; };
 		8626E5131C931A600079F214 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8626E5121C931A600079F214 /* libsqlite3.0.tbd */; };
 		8626E5171C93A44C0079F214 /* KeychainManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626E5161C93A44C0079F214 /* KeychainManager.m */; };
+		8626E51E1C93A6DD0079F214 /* DeviceInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626E51D1C93A6DD0079F214 /* DeviceInfoManager.m */; };
+		8626E52A1C93AEE70079F214 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 8626E5291C93AEE70079F214 /* 5.png */; };
+		8626E52C1C93AF7D0079F214 /* 123@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8626E52B1C93AF7D0079F214 /* 123@2x.png */; };
+		8626E5301C93B4CF0079F214 /* DateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626E52F1C93B4CF0079F214 /* DateManager.m */; };
+		8626E5341C93B5880079F214 /* TextBoundsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626E5331C93B5880079F214 /* TextBoundsManager.m */; };
+		8626E5381C93B80A0079F214 /* StringManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626E5371C93B80A0079F214 /* StringManager.m */; };
+		8626E53C1C93B9000079F214 /* HanziToPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626E53B1C93B9000079F214 /* HanziToPinyin.m */; };
+		8626E5401C93BA8C0079F214 /* DocumentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626E53F1C93BA8C0079F214 /* DocumentManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +122,21 @@
 		8626E5121C931A600079F214 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		8626E5151C93A44C0079F214 /* KeychainManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainManager.h; sourceTree = "<group>"; };
 		8626E5161C93A44C0079F214 /* KeychainManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainManager.m; sourceTree = "<group>"; };
+		8626E51C1C93A6DD0079F214 /* DeviceInfoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceInfoManager.h; sourceTree = "<group>"; };
+		8626E51D1C93A6DD0079F214 /* DeviceInfoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceInfoManager.m; sourceTree = "<group>"; };
+		8626E5231C93AAF20079F214 /* DGToolsPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGToolsPrefixHeader.pch; sourceTree = "<group>"; };
+		8626E5291C93AEE70079F214 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		8626E52B1C93AF7D0079F214 /* 123@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "123@2x.png"; sourceTree = "<group>"; };
+		8626E52E1C93B4CF0079F214 /* DateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateManager.h; sourceTree = "<group>"; };
+		8626E52F1C93B4CF0079F214 /* DateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateManager.m; sourceTree = "<group>"; };
+		8626E5321C93B5880079F214 /* TextBoundsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextBoundsManager.h; sourceTree = "<group>"; };
+		8626E5331C93B5880079F214 /* TextBoundsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextBoundsManager.m; sourceTree = "<group>"; };
+		8626E5361C93B80A0079F214 /* StringManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringManager.h; sourceTree = "<group>"; };
+		8626E5371C93B80A0079F214 /* StringManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringManager.m; sourceTree = "<group>"; };
+		8626E53A1C93B9000079F214 /* HanziToPinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HanziToPinyin.h; sourceTree = "<group>"; };
+		8626E53B1C93B9000079F214 /* HanziToPinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HanziToPinyin.m; sourceTree = "<group>"; };
+		8626E53E1C93BA8C0079F214 /* DocumentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentManager.h; sourceTree = "<group>"; };
+		8626E53F1C93BA8C0079F214 /* DocumentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +196,7 @@
 				8626E4A71C9304980079F214 /* Controllers */,
 				8626E4A51C93044E0079F214 /* CategoryTools */,
 				8626E4E01C9313290079F214 /* Managers */,
+				8626E5241C93AED80079F214 /* Resources */,
 				8626E47E1C9302840079F214 /* Assets.xcassets */,
 				8626E4801C9302840079F214 /* LaunchScreen.storyboard */,
 				8626E4831C9302840079F214 /* Info.plist */,
@@ -186,6 +210,7 @@
 			isa = PBXGroup;
 			children = (
 				8626E4701C9302840079F214 /* main.m */,
+				8626E5231C93AAF20079F214 /* DGToolsPrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -340,6 +365,11 @@
 		8626E4E01C9313290079F214 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				8626E53D1C93BA820079F214 /* DocumentManager */,
+				8626E5351C93B7FB0079F214 /* StringManager */,
+				8626E5311C93B57E0079F214 /* TextBoundsManager */,
+				8626E52D1C93B4C00079F214 /* DateManager */,
+				8626E5181C93A6D00079F214 /* DeviceInfoManager */,
 				8626E5141C93A4240079F214 /* KeychainManager */,
 				8626E4E11C9313940079F214 /* FMDBManager */,
 			);
@@ -385,6 +415,7 @@
 		8626E4FA1C9316440079F214 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8626E51F1C93A8D20079F214 /* ButtonView */,
 				8626E4FB1C9316440079F214 /* AlterView */,
 			);
 			path = View;
@@ -436,6 +467,109 @@
 				8626E5161C93A44C0079F214 /* KeychainManager.m */,
 			);
 			path = KeychainManager;
+			sourceTree = "<group>";
+		};
+		8626E5181C93A6D00079F214 /* DeviceInfoManager */ = {
+			isa = PBXGroup;
+			children = (
+				8626E51C1C93A6DD0079F214 /* DeviceInfoManager.h */,
+				8626E51D1C93A6DD0079F214 /* DeviceInfoManager.m */,
+			);
+			path = DeviceInfoManager;
+			sourceTree = "<group>";
+		};
+		8626E51F1C93A8D20079F214 /* ButtonView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ButtonView;
+			sourceTree = "<group>";
+		};
+		8626E5241C93AED80079F214 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8626E5251C93AED80079F214 /* Audios */,
+				8626E5261C93AED80079F214 /* Images */,
+				8626E5271C93AED80079F214 /* Plists */,
+				8626E5281C93AED80079F214 /* Vedios */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8626E5251C93AED80079F214 /* Audios */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Audios;
+			sourceTree = "<group>";
+		};
+		8626E5261C93AED80079F214 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8626E52B1C93AF7D0079F214 /* 123@2x.png */,
+				8626E5291C93AEE70079F214 /* 5.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		8626E5271C93AED80079F214 /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Plists;
+			sourceTree = "<group>";
+		};
+		8626E5281C93AED80079F214 /* Vedios */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vedios;
+			sourceTree = "<group>";
+		};
+		8626E52D1C93B4C00079F214 /* DateManager */ = {
+			isa = PBXGroup;
+			children = (
+				8626E52E1C93B4CF0079F214 /* DateManager.h */,
+				8626E52F1C93B4CF0079F214 /* DateManager.m */,
+			);
+			path = DateManager;
+			sourceTree = "<group>";
+		};
+		8626E5311C93B57E0079F214 /* TextBoundsManager */ = {
+			isa = PBXGroup;
+			children = (
+				8626E5321C93B5880079F214 /* TextBoundsManager.h */,
+				8626E5331C93B5880079F214 /* TextBoundsManager.m */,
+			);
+			path = TextBoundsManager;
+			sourceTree = "<group>";
+		};
+		8626E5351C93B7FB0079F214 /* StringManager */ = {
+			isa = PBXGroup;
+			children = (
+				8626E5391C93B9000079F214 /* HanziToPinyin */,
+				8626E5361C93B80A0079F214 /* StringManager.h */,
+				8626E5371C93B80A0079F214 /* StringManager.m */,
+			);
+			path = StringManager;
+			sourceTree = "<group>";
+		};
+		8626E5391C93B9000079F214 /* HanziToPinyin */ = {
+			isa = PBXGroup;
+			children = (
+				8626E53A1C93B9000079F214 /* HanziToPinyin.h */,
+				8626E53B1C93B9000079F214 /* HanziToPinyin.m */,
+			);
+			path = HanziToPinyin;
+			sourceTree = "<group>";
+		};
+		8626E53D1C93BA820079F214 /* DocumentManager */ = {
+			isa = PBXGroup;
+			children = (
+				8626E53E1C93BA8C0079F214 /* DocumentManager.h */,
+				8626E53F1C93BA8C0079F214 /* DocumentManager.m */,
+			);
+			path = DocumentManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -543,9 +677,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8626E4B11C9305270079F214 /* MainController.xib in Resources */,
+				8626E52A1C93AEE70079F214 /* 5.png in Resources */,
 				8626E4821C9302840079F214 /* LaunchScreen.storyboard in Resources */,
 				8626E47F1C9302840079F214 /* Assets.xcassets in Resources */,
 				8626E50B1C9316B50079F214 /* TestController.xib in Resources */,
+				8626E52C1C93AF7D0079F214 /* 123@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -571,17 +707,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				8626E4C51C930ED60079F214 /* NSString+Base64.m in Sources */,
+				8626E5341C93B5880079F214 /* TextBoundsManager.m in Sources */,
 				8626E5171C93A44C0079F214 /* KeychainManager.m in Sources */,
 				8626E50A1C9316B50079F214 /* TestController.m in Sources */,
 				8626E47D1C9302840079F214 /* DGTools.xcdatamodeld in Sources */,
 				8626E4F11C9313940079F214 /* FMDatabase.m in Sources */,
+				8626E5401C93BA8C0079F214 /* DocumentManager.m in Sources */,
 				8626E5011C9316440079F214 /* TopAlertView.m in Sources */,
 				8626E50F1C9319020079F214 /* UIColor+RGB.m in Sources */,
 				8626E4CA1C9310030079F214 /* UIColor+Random.m in Sources */,
 				8626E4F21C9313940079F214 /* FMDatabaseAdditions.m in Sources */,
+				8626E5381C93B80A0079F214 /* StringManager.m in Sources */,
+				8626E5301C93B4CF0079F214 /* DateManager.m in Sources */,
 				8626E4C21C930EC20079F214 /* NSString+MD5.m in Sources */,
 				8626E4F31C9313940079F214 /* FMDatabasePool.m in Sources */,
 				8626E4AB1C9304C10079F214 /* BaseController.m in Sources */,
+				8626E53C1C93B9000079F214 /* HanziToPinyin.m in Sources */,
 				8626E5001C9316440079F214 /* SIAlertView.m in Sources */,
 				8626E4F41C9313940079F214 /* FMDatabaseQueue.m in Sources */,
 				8626E4DF1C93122D0079F214 /* UIDevice+Identifier.m in Sources */,
@@ -590,6 +731,7 @@
 				8626E4F81C9313FC0079F214 /* FMDBManager.m in Sources */,
 				8626E4DA1C93117F0079F214 /* UIView+Shape.m in Sources */,
 				8626E4B01C9305270079F214 /* MainController.m in Sources */,
+				8626E51E1C93A6DD0079F214 /* DeviceInfoManager.m in Sources */,
 				8626E4711C9302840079F214 /* main.m in Sources */,
 				8626E5051C9316560079F214 /* AppDelegate.m in Sources */,
 			);
@@ -722,6 +864,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = DGTools/DGToolsPrefixHeader.pch;
 				INFOPLIST_FILE = DGTools/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tryingx.DGTools;
@@ -733,6 +876,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = DGTools/DGToolsPrefixHeader.pch;
 				INFOPLIST_FILE = DGTools/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tryingx.DGTools;

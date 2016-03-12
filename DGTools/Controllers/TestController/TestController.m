@@ -27,7 +27,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     self.title = @"TestController";
-    self.view.backgroundColor = [UIColor cyanColor];
+    self.view.backgroundColor = [UIColor yellowColor];
     [self goTestMethod];
 }
 
@@ -35,14 +35,19 @@
 //    SIAlertView *alertV = [[SIAlertView alloc] initWithTitle:@"这是一条测试消息" andMessage:@"zhe shi yi tiao ce shi xiao xi"];
 //    [alertV show];
     
-    TopAlertView *topAlertView = [[TopAlertView alloc] initWithFrame:CGRectMake(0, -50, self.view.bounds.size.width, 50)];
-    topAlertView.param = @{@"key":@"value",@"name":@"topAlertView"};
-    topAlertView.delegate = self;
-    [topAlertView show];
+//    TopAlertView *topAlertView = [[TopAlertView alloc] initWithFrame:CGRectMake(0, -50, self.view.bounds.size.width, 50)];
+//    topAlertView.param = @{@"key":@"value",@"name":@"topAlertView"};
+//    topAlertView.delegate = self;
+//    [topAlertView show];
+    NSLog(@"-----------------");
+    sleep(2);
+    NSLog(@"ssssssss");
+    
 }
-- (void)topAlertView:(TopAlertView *) alertView onClickWithParameter:(NSDictionary*)dic{
-    NSLog(@"%@",dic);
-}
+
+//- (void)topAlertView:(TopAlertView *) alertView onClickWithParameter:(NSDictionary*)dic{
+//    NSLog(@"%@",dic);
+//}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
