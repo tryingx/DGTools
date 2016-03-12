@@ -218,10 +218,10 @@
 			isa = PBXGroup;
 			children = (
 				8626E5021C9316560079F214 /* AppDelegate */,
+				8626E4A71C9304980079F214 /* Controllers */,
 				8626E4F91C9316440079F214 /* Test */,
 				8626E5761C94348F0079F214 /* Models */,
 				8626E57B1C94615A0079F214 /* CategoryExtends */,
-				8626E4A71C9304980079F214 /* Controllers */,
 				8626E4E01C9313290079F214 /* Managers */,
 				8626E5241C93AED80079F214 /* Resources */,
 				8626E47E1C9302840079F214 /* Assets.xcassets */,
