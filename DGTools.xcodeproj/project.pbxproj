@@ -195,12 +195,11 @@
 		8626E4631C9302840079F214 = {
 			isa = PBXGroup;
 			children = (
-				8626E5121C931A600079F214 /* libsqlite3.0.tbd */,
-				8626E5101C9319FC0079F214 /* libsqlite3.tbd */,
 				8626E46E1C9302840079F214 /* DGTools */,
 				8626E48B1C9302840079F214 /* DGToolsTests */,
 				8626E4961C9302840079F214 /* DGToolsUITests */,
 				8626E46D1C9302840079F214 /* Products */,
+				86600E5B1C950519001EDBD6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -709,6 +708,15 @@
 				8626E5AA1C94626E0079F214 /* NSString+Regular.m */,
 			);
 			path = "NSString+Regular";
+			sourceTree = "<group>";
+		};
+		86600E5B1C950519001EDBD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8626E5121C931A600079F214 /* libsqlite3.0.tbd */,
+				8626E5101C9319FC0079F214 /* libsqlite3.tbd */,
+			);
+			path = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
