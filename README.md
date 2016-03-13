@@ -34,6 +34,7 @@
 ## Models
 > 数据模型模板
 
+* JsonDataModel	JsonData数据模型Base类
 * CoderModel
 
 ## CategoryExtends
