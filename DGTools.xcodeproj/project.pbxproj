@@ -56,6 +56,8 @@
 		8626E5AB1C94626E0079F214 /* NSString+Regular.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626E5AA1C94626E0079F214 /* NSString+Regular.m */; };
 		868C1EFF1C95C187002DBACC /* JsonDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 868C1EFE1C95C187002DBACC /* JsonDataModel.m */; };
 		868C1F031C95C249002DBACC /* ExampleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 868C1F021C95C249002DBACC /* ExampleModel.m */; };
+		868C1F071C95C4C9002DBACC /* NSString+Blank.m in Sources */ = {isa = PBXBuildFile; fileRef = 868C1F061C95C4C9002DBACC /* NSString+Blank.m */; };
+		868C1F0C1C95C583002DBACC /* NSObject+OTSharedInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 868C1F0B1C95C583002DBACC /* NSObject+OTSharedInstance.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -169,6 +171,10 @@
 		868C1EFE1C95C187002DBACC /* JsonDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonDataModel.m; sourceTree = "<group>"; };
 		868C1F011C95C249002DBACC /* ExampleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleModel.h; sourceTree = "<group>"; };
 		868C1F021C95C249002DBACC /* ExampleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleModel.m; sourceTree = "<group>"; };
+		868C1F051C95C4C9002DBACC /* NSString+Blank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Blank.h"; sourceTree = "<group>"; };
+		868C1F061C95C4C9002DBACC /* NSString+Blank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Blank.m"; sourceTree = "<group>"; };
+		868C1F0A1C95C583002DBACC /* NSObject+OTSharedInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+OTSharedInstance.h"; sourceTree = "<group>"; };
+		868C1F0B1C95C583002DBACC /* NSObject+OTSharedInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+OTSharedInstance.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -571,6 +577,7 @@
 		8626E57B1C94615A0079F214 /* CategoryExtends */ = {
 			isa = PBXGroup;
 			children = (
+				868C1F081C95C583002DBACC /* NSObjectExtend */,
 				8626E57C1C94615A0079F214 /* NSStringExtend */,
 				8626E58F1C94615A0079F214 /* UIColorExtend */,
 				8626E5961C94615A0079F214 /* UIDeviceExtend */,
@@ -582,6 +589,7 @@
 		8626E57C1C94615A0079F214 /* NSStringExtend */ = {
 			isa = PBXGroup;
 			children = (
+				868C1F041C95C4C9002DBACC /* NSString+Blank */,
 				8626E5A81C94626E0079F214 /* NSString+Regular */,
 				8626E57D1C94615A0079F214 /* NSString+Base64 */,
 				8626E5831C94615A0079F214 /* NSString+Emoji */,
@@ -745,6 +753,32 @@
 			path = ExampleModel;
 			sourceTree = "<group>";
 		};
+		868C1F041C95C4C9002DBACC /* NSString+Blank */ = {
+			isa = PBXGroup;
+			children = (
+				868C1F051C95C4C9002DBACC /* NSString+Blank.h */,
+				868C1F061C95C4C9002DBACC /* NSString+Blank.m */,
+			);
+			path = "NSString+Blank";
+			sourceTree = "<group>";
+		};
+		868C1F081C95C583002DBACC /* NSObjectExtend */ = {
+			isa = PBXGroup;
+			children = (
+				868C1F091C95C583002DBACC /* NSObject+OTSharedInstance */,
+			);
+			path = NSObjectExtend;
+			sourceTree = "<group>";
+		};
+		868C1F091C95C583002DBACC /* NSObject+OTSharedInstance */ = {
+			isa = PBXGroup;
+			children = (
+				868C1F0A1C95C583002DBACC /* NSObject+OTSharedInstance.h */,
+				868C1F0B1C95C583002DBACC /* NSObject+OTSharedInstance.m */,
+			);
+			path = "NSObject+OTSharedInstance";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -888,6 +922,7 @@
 				8626E47D1C9302840079F214 /* DGTools.xcdatamodeld in Sources */,
 				8626E4F11C9313940079F214 /* FMDatabase.m in Sources */,
 				8626E5401C93BA8C0079F214 /* DocumentManager.m in Sources */,
+				868C1F0C1C95C583002DBACC /* NSObject+OTSharedInstance.m in Sources */,
 				8626E5011C9316440079F214 /* TopAlertView.m in Sources */,
 				8626E4F21C9313940079F214 /* FMDatabaseAdditions.m in Sources */,
 				8626E5381C93B80A0079F214 /* StringManager.m in Sources */,
@@ -909,6 +944,7 @@
 				8626E59F1C94615A0079F214 /* NSString+Base64.m in Sources */,
 				868C1EFF1C95C187002DBACC /* JsonDataModel.m in Sources */,
 				8626E5A11C94615A0079F214 /* NSString+Hash.m in Sources */,
+				868C1F071C95C4C9002DBACC /* NSString+Blank.m in Sources */,
 				8626E55B1C93EF220079F214 /* FirstController.m in Sources */,
 				8626E4F51C9313940079F214 /* FMResultSet.m in Sources */,
 				8626E5A31C94615A0079F214 /* NSString+Trim.m in Sources */,

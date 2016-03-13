@@ -15,12 +15,9 @@
 
 * MainTabBarController	:	Main_TabBar_Controller
 
-
 * BaseController			:	Base_Controller
 
-
 * FirstController		:	First_TabBar_Controller
-
 
 * TestController			:	Test_Controller
 
@@ -35,6 +32,7 @@
 > 数据模型模板
 
 * JsonDataModel	JsonData数据模型Base类
+
 * CoderModel
 
 ## CategoryExtends
@@ -44,24 +42,29 @@
 
 * UIColorExtend
 
-
 * UIDeviceExtend
 
-
 * UIViewExtend
-
 
 ## Managers
 > 管理器
 
 * ImageManager
+
 * WidgetManager
+
 * DocumentManager
+
 * StringManager
+
 * TextBoundsManager
+
 * DateManager
+
 * DeviceInfoManager
+
 * KeychainManager
+
 * FMDBManager
 
 ## Resources
