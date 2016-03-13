@@ -791,7 +791,7 @@ static SIAlertView *__si_alert_current_view;
             self.titleLabel.backgroundColor = [UIColor clearColor];
 			self.titleLabel.font = self.titleFont;
             self.titleLabel.textColor = self.titleColor;
-            self.titleLabel.textColor = [UIColor colorFromHexRGB:@"96b157"];
+            self.titleLabel.textColor = [UIColor colorWithRGB:0x96b157 alpha:1.0];
             self.titleLabel.adjustsFontSizeToFitWidth = YES;
 #ifndef __IPHONE_6_0
             self.titleLabel.minimumScaleFactor = 0.75;
@@ -949,7 +949,7 @@ static SIAlertView *__si_alert_current_view;
     }
     _titleColor = titleColor;
     self.titleLabel.textColor = titleColor;
-    self.titleLabel.textColor = [UIColor colorFromHexRGB:@"96b157"];
+    self.titleLabel.textColor = [UIColor colorWithRGB:0x96b157 alpha:1.0];
 }
 
 - (void)setMessageColor:(UIColor *)messageColor

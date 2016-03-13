@@ -10,6 +10,6 @@
 
 @interface UIColor (RGB)
 
-+ (UIColor *)colorFromHexRGB:(NSString *)RGB_String;
++ (UIColor *)colorWithRGB:(NSInteger)RGBValue alpha:(CGFloat)alpha;
 
 @end

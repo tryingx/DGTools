@@ -52,12 +52,13 @@
 		8626E5A41C94615A0079F214 /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626E5921C94615A0079F214 /* UIColor+Random.m */; };
 		8626E5A51C94615A0079F214 /* UIColor+RGB.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626E5951C94615A0079F214 /* UIColor+RGB.m */; };
 		8626E5A61C94615A0079F214 /* UIDevice+Identifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626E5991C94615A0079F214 /* UIDevice+Identifier.m */; };
-		8626E5A71C94615A0079F214 /* UIView+Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626E59D1C94615A0079F214 /* UIView+Shape.m */; };
 		8626E5AB1C94626E0079F214 /* NSString+Regular.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626E5AA1C94626E0079F214 /* NSString+Regular.m */; };
 		868C1EFF1C95C187002DBACC /* JsonDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 868C1EFE1C95C187002DBACC /* JsonDataModel.m */; };
 		868C1F031C95C249002DBACC /* ExampleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 868C1F021C95C249002DBACC /* ExampleModel.m */; };
 		868C1F071C95C4C9002DBACC /* NSString+Blank.m in Sources */ = {isa = PBXBuildFile; fileRef = 868C1F061C95C4C9002DBACC /* NSString+Blank.m */; };
 		868C1F0C1C95C583002DBACC /* NSObject+OTSharedInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 868C1F0B1C95C583002DBACC /* NSObject+OTSharedInstance.m */; };
+		868C1F101C95C706002DBACC /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 868C1F0F1C95C706002DBACC /* UIColor+Hex.m */; };
+		868C1F141C95C814002DBACC /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 868C1F131C95C814002DBACC /* UIView+Addition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -163,8 +164,6 @@
 		8626E5951C94615A0079F214 /* UIColor+RGB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RGB.m"; sourceTree = "<group>"; };
 		8626E5981C94615A0079F214 /* UIDevice+Identifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Identifier.h"; sourceTree = "<group>"; };
 		8626E5991C94615A0079F214 /* UIDevice+Identifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Identifier.m"; sourceTree = "<group>"; };
-		8626E59C1C94615A0079F214 /* UIView+Shape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Shape.h"; sourceTree = "<group>"; };
-		8626E59D1C94615A0079F214 /* UIView+Shape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Shape.m"; sourceTree = "<group>"; };
 		8626E5A91C94626E0079F214 /* NSString+Regular.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Regular.h"; sourceTree = "<group>"; };
 		8626E5AA1C94626E0079F214 /* NSString+Regular.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Regular.m"; sourceTree = "<group>"; };
 		868C1EFD1C95C187002DBACC /* JsonDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonDataModel.h; sourceTree = "<group>"; };
@@ -175,6 +174,10 @@
 		868C1F061C95C4C9002DBACC /* NSString+Blank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Blank.m"; sourceTree = "<group>"; };
 		868C1F0A1C95C583002DBACC /* NSObject+OTSharedInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+OTSharedInstance.h"; sourceTree = "<group>"; };
 		868C1F0B1C95C583002DBACC /* NSObject+OTSharedInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+OTSharedInstance.m"; sourceTree = "<group>"; };
+		868C1F0E1C95C706002DBACC /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		868C1F0F1C95C706002DBACC /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		868C1F121C95C814002DBACC /* UIView+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Addition.h"; sourceTree = "<group>"; };
+		868C1F131C95C814002DBACC /* UIView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Addition.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -658,6 +661,7 @@
 		8626E58F1C94615A0079F214 /* UIColorExtend */ = {
 			isa = PBXGroup;
 			children = (
+				868C1F0D1C95C6EB002DBACC /* UIColor+Hex */,
 				8626E5901C94615A0079F214 /* UIColor+Random */,
 				8626E5931C94615A0079F214 /* UIColor+RGB */,
 			);
@@ -702,18 +706,9 @@
 		8626E59A1C94615A0079F214 /* UIViewExtend */ = {
 			isa = PBXGroup;
 			children = (
-				8626E59B1C94615A0079F214 /* UIView+Shape */,
+				868C1F111C95C814002DBACC /* UIView+Addition */,
 			);
 			path = UIViewExtend;
-			sourceTree = "<group>";
-		};
-		8626E59B1C94615A0079F214 /* UIView+Shape */ = {
-			isa = PBXGroup;
-			children = (
-				8626E59C1C94615A0079F214 /* UIView+Shape.h */,
-				8626E59D1C94615A0079F214 /* UIView+Shape.m */,
-			);
-			path = "UIView+Shape";
 			sourceTree = "<group>";
 		};
 		8626E5A81C94626E0079F214 /* NSString+Regular */ = {
@@ -777,6 +772,24 @@
 				868C1F0B1C95C583002DBACC /* NSObject+OTSharedInstance.m */,
 			);
 			path = "NSObject+OTSharedInstance";
+			sourceTree = "<group>";
+		};
+		868C1F0D1C95C6EB002DBACC /* UIColor+Hex */ = {
+			isa = PBXGroup;
+			children = (
+				868C1F0E1C95C706002DBACC /* UIColor+Hex.h */,
+				868C1F0F1C95C706002DBACC /* UIColor+Hex.m */,
+			);
+			path = "UIColor+Hex";
+			sourceTree = "<group>";
+		};
+		868C1F111C95C814002DBACC /* UIView+Addition */ = {
+			isa = PBXGroup;
+			children = (
+				868C1F121C95C814002DBACC /* UIView+Addition.h */,
+				868C1F131C95C814002DBACC /* UIView+Addition.m */,
+			);
+			path = "UIView+Addition";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -915,12 +928,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8626E5341C93B5880079F214 /* TextBoundsManager.m in Sources */,
+				868C1F101C95C706002DBACC /* UIColor+Hex.m in Sources */,
 				8626E5171C93A44C0079F214 /* KeychainManager.m in Sources */,
 				868C1F031C95C249002DBACC /* ExampleModel.m in Sources */,
 				8626E5A01C94615A0079F214 /* NSString+Emoji.m in Sources */,
 				8626E50A1C9316B50079F214 /* TestController.m in Sources */,
 				8626E47D1C9302840079F214 /* DGTools.xcdatamodeld in Sources */,
 				8626E4F11C9313940079F214 /* FMDatabase.m in Sources */,
+				868C1F141C95C814002DBACC /* UIView+Addition.m in Sources */,
 				8626E5401C93BA8C0079F214 /* DocumentManager.m in Sources */,
 				868C1F0C1C95C583002DBACC /* NSObject+OTSharedInstance.m in Sources */,
 				8626E5011C9316440079F214 /* TopAlertView.m in Sources */,
@@ -935,7 +950,6 @@
 				8626E53C1C93B9000079F214 /* HanziToPinyin.m in Sources */,
 				8626E5A51C94615A0079F214 /* UIColor+RGB.m in Sources */,
 				8626E57A1C9435140079F214 /* CoderModel.m in Sources */,
-				8626E5A71C94615A0079F214 /* UIView+Shape.m in Sources */,
 				8626E5441C93BD710079F214 /* WidgetManager.m in Sources */,
 				8626E5001C9316440079F214 /* SIAlertView.m in Sources */,
 				8626E5A61C94615A0079F214 /* UIDevice+Identifier.m in Sources */,
