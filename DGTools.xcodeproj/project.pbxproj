@@ -54,6 +54,8 @@
 		8626E5A61C94615A0079F214 /* UIDevice+Identifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626E5991C94615A0079F214 /* UIDevice+Identifier.m */; };
 		8626E5A71C94615A0079F214 /* UIView+Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626E59D1C94615A0079F214 /* UIView+Shape.m */; };
 		8626E5AB1C94626E0079F214 /* NSString+Regular.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626E5AA1C94626E0079F214 /* NSString+Regular.m */; };
+		868C1EFF1C95C187002DBACC /* JsonDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 868C1EFE1C95C187002DBACC /* JsonDataModel.m */; };
+		868C1F031C95C249002DBACC /* ExampleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 868C1F021C95C249002DBACC /* ExampleModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -163,6 +165,10 @@
 		8626E59D1C94615A0079F214 /* UIView+Shape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Shape.m"; sourceTree = "<group>"; };
 		8626E5A91C94626E0079F214 /* NSString+Regular.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Regular.h"; sourceTree = "<group>"; };
 		8626E5AA1C94626E0079F214 /* NSString+Regular.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Regular.m"; sourceTree = "<group>"; };
+		868C1EFD1C95C187002DBACC /* JsonDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonDataModel.h; sourceTree = "<group>"; };
+		868C1EFE1C95C187002DBACC /* JsonDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonDataModel.m; sourceTree = "<group>"; };
+		868C1F011C95C249002DBACC /* ExampleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleModel.h; sourceTree = "<group>"; };
+		868C1F021C95C249002DBACC /* ExampleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -547,6 +553,7 @@
 		8626E5761C94348F0079F214 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				868C1EFC1C95C178002DBACC /* JsonDataModel */,
 				8626E5771C9435040079F214 /* CoderModel */,
 			);
 			path = Models;
@@ -719,6 +726,25 @@
 			path = Frameworks;
 			sourceTree = "<group>";
 		};
+		868C1EFC1C95C178002DBACC /* JsonDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				868C1F001C95C23A002DBACC /* ExampleModel */,
+				868C1EFD1C95C187002DBACC /* JsonDataModel.h */,
+				868C1EFE1C95C187002DBACC /* JsonDataModel.m */,
+			);
+			path = JsonDataModel;
+			sourceTree = "<group>";
+		};
+		868C1F001C95C23A002DBACC /* ExampleModel */ = {
+			isa = PBXGroup;
+			children = (
+				868C1F011C95C249002DBACC /* ExampleModel.h */,
+				868C1F021C95C249002DBACC /* ExampleModel.m */,
+			);
+			path = ExampleModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -856,6 +882,7 @@
 			files = (
 				8626E5341C93B5880079F214 /* TextBoundsManager.m in Sources */,
 				8626E5171C93A44C0079F214 /* KeychainManager.m in Sources */,
+				868C1F031C95C249002DBACC /* ExampleModel.m in Sources */,
 				8626E5A01C94615A0079F214 /* NSString+Emoji.m in Sources */,
 				8626E50A1C9316B50079F214 /* TestController.m in Sources */,
 				8626E47D1C9302840079F214 /* DGTools.xcdatamodeld in Sources */,
@@ -880,6 +907,7 @@
 				8626E4F41C9313940079F214 /* FMDatabaseQueue.m in Sources */,
 				8626E5A41C94615A0079F214 /* UIColor+Random.m in Sources */,
 				8626E59F1C94615A0079F214 /* NSString+Base64.m in Sources */,
+				868C1EFF1C95C187002DBACC /* JsonDataModel.m in Sources */,
 				8626E5A11C94615A0079F214 /* NSString+Hash.m in Sources */,
 				8626E55B1C93EF220079F214 /* FirstController.m in Sources */,
 				8626E4F51C9313940079F214 /* FMResultSet.m in Sources */,
