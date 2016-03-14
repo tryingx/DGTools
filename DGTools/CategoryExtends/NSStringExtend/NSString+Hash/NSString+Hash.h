@@ -12,8 +12,8 @@
 
 - (NSString *)MD5Hash;
 
-+ (NSString*)fileMD5:(NSString*)path;
++ (NSString *)fileMD5:(NSString*)path;
 
-+ (NSString*)dataMD5:(NSData*)data;
++ (NSString *)dataMD5:(NSData*)data;
 
 @end

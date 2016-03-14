@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32E7A2FC4CED711530159154 /* libPods-DGTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC843A61DC884880D8E3AD9 /* libPods-DGTools.a */; };
 		8626E4711C9302840079F214 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8626E4701C9302840079F214 /* main.m */; };
 		8626E47D1C9302840079F214 /* DGTools.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8626E47B1C9302840079F214 /* DGTools.xcdatamodeld */; };
 		8626E47F1C9302840079F214 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8626E47E1C9302840079F214 /* Assets.xcassets */; };
@@ -59,6 +60,8 @@
 		868C1F0C1C95C583002DBACC /* NSObject+OTSharedInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 868C1F0B1C95C583002DBACC /* NSObject+OTSharedInstance.m */; };
 		868C1F101C95C706002DBACC /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 868C1F0F1C95C706002DBACC /* UIColor+Hex.m */; };
 		868C1F141C95C814002DBACC /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 868C1F131C95C814002DBACC /* UIView+Addition.m */; };
+		868EDB101C9705F00032B6D8 /* CrashReporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 868EDB0F1C9705F00032B6D8 /* CrashReporter.framework */; };
+		868EDB131C970B170032B6D8 /* CrashReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 868EDB121C970B170032B6D8 /* CrashReporter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -178,6 +181,12 @@
 		868C1F0F1C95C706002DBACC /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		868C1F121C95C814002DBACC /* UIView+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Addition.h"; sourceTree = "<group>"; };
 		868C1F131C95C814002DBACC /* UIView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Addition.m"; sourceTree = "<group>"; };
+		868EDB0F1C9705F00032B6D8 /* CrashReporter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CrashReporter.framework; sourceTree = "<group>"; };
+		868EDB111C970B170032B6D8 /* CrashReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrashReporter.h; sourceTree = "<group>"; };
+		868EDB121C970B170032B6D8 /* CrashReporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrashReporter.m; sourceTree = "<group>"; };
+		B7F435B21EC9D7D034B964F7 /* Pods-DGTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGTools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DGTools/Pods-DGTools.debug.xcconfig"; sourceTree = "<group>"; };
+		DA2302F627D5E1A365E5AFA8 /* Pods-DGTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGTools.release.xcconfig"; path = "Pods/Target Support Files/Pods-DGTools/Pods-DGTools.release.xcconfig"; sourceTree = "<group>"; };
+		ECC843A61DC884880D8E3AD9 /* libPods-DGTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DGTools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,7 +195,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8626E5131C931A600079F214 /* libsqlite3.0.tbd in Frameworks */,
+				868EDB101C9705F00032B6D8 /* CrashReporter.framework in Frameworks */,
 				8626E5111C9319FC0079F214 /* libsqlite3.tbd in Frameworks */,
+				32E7A2FC4CED711530159154 /* libPods-DGTools.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +218,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		66C7052AD21EB88883280947 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7F435B21EC9D7D034B964F7 /* Pods-DGTools.debug.xcconfig */,
+				DA2302F627D5E1A365E5AFA8 /* Pods-DGTools.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8626E4631C9302840079F214 = {
 			isa = PBXGroup;
 			children = (
@@ -215,6 +235,7 @@
 				8626E4961C9302840079F214 /* DGToolsUITests */,
 				8626E46D1C9302840079F214 /* Products */,
 				86600E5B1C950519001EDBD6 /* Frameworks */,
+				66C7052AD21EB88883280947 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -297,6 +318,7 @@
 		8626E4E01C9313290079F214 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				868EDB0B1C9704790032B6D8 /* CrashReporter */,
 				8626E56B1C941BFD0079F214 /* ImageManager */,
 				8626E5411C93BD5D0079F214 /* WidgetManager */,
 				8626E53D1C93BA820079F214 /* DocumentManager */,
@@ -725,6 +747,7 @@
 			children = (
 				8626E5121C931A600079F214 /* libsqlite3.0.tbd */,
 				8626E5101C9319FC0079F214 /* libsqlite3.tbd */,
+				ECC843A61DC884880D8E3AD9 /* libPods-DGTools.a */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -792,6 +815,16 @@
 			path = "UIView+Addition";
 			sourceTree = "<group>";
 		};
+		868EDB0B1C9704790032B6D8 /* CrashReporter */ = {
+			isa = PBXGroup;
+			children = (
+				868EDB111C970B170032B6D8 /* CrashReporter.h */,
+				868EDB121C970B170032B6D8 /* CrashReporter.m */,
+				868EDB0F1C9705F00032B6D8 /* CrashReporter.framework */,
+			);
+			path = CrashReporter;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -799,9 +832,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8626E49C1C9302840079F214 /* Build configuration list for PBXNativeTarget "DGTools" */;
 			buildPhases = (
+				102B5C091B0E7179F38672BE /* Check Pods Manifest.lock */,
 				8626E4681C9302840079F214 /* Sources */,
 				8626E4691C9302840079F214 /* Frameworks */,
 				8626E46A1C9302840079F214 /* Resources */,
+				90FB137EDD5C7D69E207391E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -922,6 +957,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		102B5C091B0E7179F38672BE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		90FB137EDD5C7D69E207391E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DGTools/Pods-DGTools-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8626E4681C9302840079F214 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -945,6 +1013,7 @@
 				8626E5301C93B4CF0079F214 /* DateManager.m in Sources */,
 				8626E4F31C9313940079F214 /* FMDatabasePool.m in Sources */,
 				8626E5A21C94615A0079F214 /* NSString+MD5.m in Sources */,
+				868EDB131C970B170032B6D8 /* CrashReporter.m in Sources */,
 				8626E5711C941C280079F214 /* ImageManager.m in Sources */,
 				8626E4AB1C9304C10079F214 /* BaseController.m in Sources */,
 				8626E53C1C93B9000079F214 /* HanziToPinyin.m in Sources */,
@@ -1096,8 +1165,13 @@
 		};
 		8626E49D1C9302840079F214 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7F435B21EC9D7D034B964F7 /* Pods-DGTools.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DGTools/Managers/CrashReporter",
+				);
 				GCC_PREFIX_HEADER = DGTools/PrefixHeaders/DGToolsPrefixHeader.pch;
 				INFOPLIST_FILE = DGTools/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -1109,8 +1183,13 @@
 		};
 		8626E49E1C9302840079F214 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA2302F627D5E1A365E5AFA8 /* Pods-DGTools.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DGTools/Managers/CrashReporter",
+				);
 				GCC_PREFIX_HEADER = DGTools/PrefixHeaders/DGToolsPrefixHeader.pch;
 				INFOPLIST_FILE = DGTools/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;

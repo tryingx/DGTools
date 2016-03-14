@@ -31,4 +31,31 @@
  */
 + (NSString *) UUID;
 
+#pragma mark - 获取电池状态
++ (CGFloat)getBatteryQuantity;
+
+#pragma mark - 磁盘剩余空间
++ (long long)freeSpace;
+
+#pragma mark - 所有的磁盘
++ (float)getTotalDiskSpaceInBytes;
+
+#pragma mark - 计算真机、模拟器剩余内存
++ (double)availableMemory;
+
+#pragma mark - 总内存大小
++ (long long)getTotalMemorySize;
+
+#pragma mark - 崩溃ID
++ (NSString *)getUniqueStrByUUID;
+
+#pragma mark - 网络制式
++ (NSString *)getNetworktype;
+
+#pragma mark - 获取屏幕方向
++ (NSString *)getOrientation;
+
+#pragma mark - 获取GPS状态
++ (NSString *)getGpsStatus;
+
 @end
