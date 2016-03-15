@@ -3,6 +3,6 @@ inhibit_all_warnings!
 
 target “DGTools” do
 
-pod 'AFNetworking', '~> 3.0.4'
+pod 'AFNetworking', '~> 2.5.0'
 
 end
