@@ -62,6 +62,7 @@
 		868C1F141C95C814002DBACC /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 868C1F131C95C814002DBACC /* UIView+Addition.m */; };
 		868EDB101C9705F00032B6D8 /* CrashReporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 868EDB0F1C9705F00032B6D8 /* CrashReporter.framework */; };
 		868EDB131C970B170032B6D8 /* CrashReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 868EDB121C970B170032B6D8 /* CrashReporter.m */; };
+		86AA4CFE1CA042FF0080A7C1 /* NetworkMacro.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AA4CFD1CA042FF0080A7C1 /* NetworkMacro.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -184,6 +185,8 @@
 		868EDB0F1C9705F00032B6D8 /* CrashReporter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CrashReporter.framework; sourceTree = "<group>"; };
 		868EDB111C970B170032B6D8 /* CrashReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrashReporter.h; sourceTree = "<group>"; };
 		868EDB121C970B170032B6D8 /* CrashReporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrashReporter.m; sourceTree = "<group>"; };
+		86AA4CFC1CA042FF0080A7C1 /* NetworkMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkMacro.h; sourceTree = "<group>"; };
+		86AA4CFD1CA042FF0080A7C1 /* NetworkMacro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkMacro.m; sourceTree = "<group>"; };
 		B7F435B21EC9D7D034B964F7 /* Pods-DGTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGTools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DGTools/Pods-DGTools.debug.xcconfig"; sourceTree = "<group>"; };
 		DA2302F627D5E1A365E5AFA8 /* Pods-DGTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGTools.release.xcconfig"; path = "Pods/Target Support Files/Pods-DGTools/Pods-DGTools.release.xcconfig"; sourceTree = "<group>"; };
 		ECC843A61DC884880D8E3AD9 /* libPods-DGTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DGTools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -548,6 +551,8 @@
 		8626E5481C93D87B0079F214 /* NetworkMacro */ = {
 			isa = PBXGroup;
 			children = (
+				86AA4CFC1CA042FF0080A7C1 /* NetworkMacro.h */,
+				86AA4CFD1CA042FF0080A7C1 /* NetworkMacro.m */,
 			);
 			path = NetworkMacro;
 			sourceTree = "<group>";
@@ -1026,6 +1031,7 @@
 				8626E5A41C94615A0079F214 /* UIColor+Random.m in Sources */,
 				8626E59F1C94615A0079F214 /* NSString+Base64.m in Sources */,
 				868C1EFF1C95C187002DBACC /* JsonDataModel.m in Sources */,
+				86AA4CFE1CA042FF0080A7C1 /* NetworkMacro.m in Sources */,
 				8626E5A11C94615A0079F214 /* NSString+Hash.m in Sources */,
 				868C1F071C95C4C9002DBACC /* NSString+Blank.m in Sources */,
 				8626E55B1C93EF220079F214 /* FirstController.m in Sources */,

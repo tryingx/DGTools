@@ -17,20 +17,29 @@
 
 //==========================MACROS==========================
 //----------NetworkMacro----
-
+//  此类可根据功能模块划分网络请求接口宏定义类
+#import "NetworkMacro.h"
 
 //==========================CATEGORY========================
+//----------NSObject--------
+#import "NSObject+OTSharedInstance.h"
+
 //----------UIView----------
 #import "UIView+Addition.h"
 
 //----------UIColor---------
 #import "UIColor+RGB.h"
 #import "UIColor+Random.h"
+#import "UIColor+Hex.h"
 
 //----------NSString--------
+#import "NSString+Blank.h"
 #import "NSString+Regular.h"
-#import "NSString+MD5.h"
 #import "NSString+Base64.h"
+#import "NSString+Emoji.h"
+#import "NSString+Hash.h"
+#import "NSString+MD5.h"
+#import "NSString+Trim.h"
 
 //----------UIDevice--------
 #import "UIDevice+Identifier.h"
